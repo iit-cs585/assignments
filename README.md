@@ -1,4 +1,4 @@
-Each student has their own private GitHub repository at:  
+By the end of the second week of class, each student should have their own private GitHub repository at:  
 <https://github.com/iit-cs585/[your-github-id]>
 
 This is where you will submit all assignments.
@@ -40,9 +40,7 @@ For each assignment, then, you should do the following:
 
 6. You can also view your code on Github with a web browser to make sure all your code has been submitted.
 
-7. Assignments contain [doctests](https://docs.python.org/3/library/doctest.html). You can run these for a file `foo.py` using `python -m doctest foo.py`. If all tests pass, you'll see no output. To see output even for passing tests, add a `-v` flag to the command.
+7. Assignments contain [unit tests](http://docs.python-guide.org/en/latest/writing/tests/) to test your code. (E.g., in assignment 1, see the file [a1_test.py](https://github.com/iit-cs585/assignments/blob/master/a1/a1_test.py). You should ensure that your code passess all test by running `python a1_test.py`. **N.b. Passing all tests is necessary, but not sufficient, for receiving full marks.**
 
-8. Typically, each assignment contains a number of methods for you to complete. I recommend tackling these one at a time, debugging and testing, and then moving onto the next method. Implementing everything and then running at the end will likely result in many errors that can be difficult to track down. In order to run the doctests from a single function, you can use [nose](https://github.com/nose-devs/nose). E.g., to run only the doctests for the `get_twitter` function in `a1.py`, you would call:
-  - `nosetests --with-doctest a1.py:get_twitter`
-
-9. For some assignments, I also include a `Log.txt` file which contains the expected output when running the assignment's main method (e.g., `python a1.py`). You should look to make sure your output matches. Occasionally, some deviations are expected, particularly if sets are used, which are unordered.
+8. Typically, each assignment contains a number of methods for you to complete. I recommend tackling these one at a time, debugging and testing, and then moving onto the next method. Implementing everything and then running at the end will likely result in many errors that can be difficult to track down. In order to run the test from a single function, you can pass an extra argument to the test command. E.g., to run only the test `test_baa_fsa` in `a1.py`, you would call:
+  - `python a1_test.py TestA1.test_baa_fsa`
