@@ -15,7 +15,7 @@ For each assignment, then, you should do the following:
 
 1. Run `./update.sh` to get the latest starter code.
 
-2. Do the homework, adding and modifying files in the assignment directory. **Commit often!**
+2. Do the homework, adding and modifying files in the assignment directory. **Commit and push often!** Nothing will be graded until after the deadline, so this is a good practice to backup your work and also timestamp partial solutions.
 
 3. Before the deadline, push all of your changes to GitHub. E.g.:
   ```
