@@ -1,3 +1,5 @@
+## Instructions for submitting assignments
+
 By the end of the second week of class, each student should have their own private GitHub repository at:  
 <https://github.com/iit-cs585/[your-github-id]>
 
