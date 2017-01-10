@@ -9,10 +9,10 @@
 4. Install and Setup Git: <https://help.github.com/articles/set-up-git/>
 
 5. Clone your private class repository
-```
-git clone https://github.com/iit-cs585/[github-username].git
-```
-E.g., for me this would be:
+  ```
+  git clone https://github.com/iit-cs585/[github-username].git
+  ```
+  E.g., for me this would be:
   ```
    git clone https://github.com/iit-cs585/aronwc.git
   ```
