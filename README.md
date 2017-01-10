@@ -4,6 +4,7 @@ By the end of the second week of class, each student should have their own priva
 This is where you will submit all assignments. You should clone this repository to your local machine with
 
 `git clone https://github.com/iit-cs585/[github-username].git`
+
 substituting your actual github username for [github-username]
 
 Your repository should already contain starter code for each assignment. This starter code has been pulled from the assignment repository at <https://github.com/iit-cs585/assignments>.
