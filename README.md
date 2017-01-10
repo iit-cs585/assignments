@@ -15,7 +15,12 @@ Throughout the course, I may update the assignments to clarify questions or add 
 
 For each assignment, then, you should do the following:
 
-1. Run `./update.sh` to get the latest starter code.
+1. Run `./update.sh` to get the latest starter code. (On unix-like machines, you may need to run `chmod a+x` to make the file executable). If you have trouble running this script, you can just run the git commands yourself:
+  ```
+  git remote add template https://github.com/iit-cs585/assignments
+  git fetch template
+  git merge template/master
+  ```
 
 2. Do the homework, adding and modifying files in the assignment directory. **Commit and push often!** Nothing will be graded until after the deadline, so this is a good practice to backup your work and also timestamp partial solutions.
 
