@@ -66,13 +66,11 @@ A **maximum** five minute presentation summarizing your project, following a sim
 
 Upload your slides in the root of your project folder as **presentation.pdf**.
 
-#### If your entire team consists of remote students
-
-You will present your presentation using a screencast, e.g.
-- Using QuickTime: http://www.abeautifulsite.net/recording-a-screencast-with-quicktime/
-- Using screencast-o-matic: http://www.screencast-o-matic.com/
-
-Record and save the screencast and upload it to the root of your project folder, using the name **presentation.mp4**.
+#### If your entire team consists of remote students:
+- You will present your presentation using a screencast, e.g.
+  - Using QuickTime: http://www.abeautifulsite.net/recording-a-screencast-with-quicktime/
+  - Using screencast-o-matic: http://www.screencast-o-matic.com/
+- Record and save the screencast and upload it to the root of your project folder, using the name **presentation.mp4**.
 
 ### Grading
 
