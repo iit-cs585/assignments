@@ -68,7 +68,7 @@ Upload your slides in the root of your project folder as **presentation.pdf**.
 
 #### If your entire team consists of remote students
 
-Yyou will present your presentation using a screencast, e.g.
+You will present your presentation using a screencast, e.g.
 - Using QuickTime: http://www.abeautifulsite.net/recording-a-screencast-with-quicktime/
 - Using screencast-o-matic: http://www.screencast-o-matic.com/
 
