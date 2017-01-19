@@ -62,15 +62,13 @@ class TestA1(unittest.TestCase):
                  'ProperNoun :- Houston TWA John'] 
         rules = read_grammar(grammar_rules)
         rules = sorted(rules)
-        self.assertTrue(rules[0][0], 'Det')
-        self.assertTrue(rules[1][0], 'a')
-        self.assertTrue(rules[1][1], 'the')
+        self.assertEqual(rules[0][0], 'Det')
+        self.assertEqual(rules[0][1][0], 'a')
+        self.assertEqual(rules[0][1][1], 'the')
 
-        self.assertTrue(rules[0][0], 'NP')
-        self.assertTrue(rules[1][0], 'Det')
-        self.assertTrue(rules[1][1], 'Noun')
-
-        self.assertTrue(len(rules) == 9)
+        self.assertEqual(rules[1][0], 'NP')
+        self.assertEqual(rules[1][1][0], 'Det')
+        self.assertEqual(rules[1][1][1], 'Noun')
         
     def test_get_leaves(self):
         """
