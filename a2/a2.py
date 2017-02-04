@@ -166,10 +166,10 @@ if __name__ == '__main__':
 	to different computing environments.)
 
 	$ python3 a2.py  
-	model has 33 states
-	['$', "''", ',', ':', 'CC', 'CD', 'DT', 'EX', 'IN', 'JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNP', 'NNPS', 'NNS', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'TO', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'WDT', 'WP', 'WRB', '``']
+	model has 34 states
+        ['$', "''", ',', '.', ':', 'CC', 'CD', 'DT', 'EX', 'IN', 'JJ', 'JJR', 'JJS', 'MD', 'NN', 'NNP', 'NNPS', 'NNS', 'POS', 'PRP', 'PRP$', 'RB', 'RBR', 'TO', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'WDT', 'WP', 'WRB', '``']
 	predicted parts of speech for the sentence ['Look', 'at', 'what', 'happened']
-	(['VB', 'IN', 'WP', 'VBD'], 2.752640843234699e-10)
+	(['VB', 'IN', 'WP', 'VBD'], 2.751820088075314e-10)
 	"""
 	fname = 'data.txt'
 	if not os.path.isfile(fname):
