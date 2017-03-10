@@ -1,0 +1,38 @@
+training data shape: (27858, 18287)
+
+testing data shape: (28028, 18287)
+
+confusion matrix:
+        I-LOC  I-MISC  I-ORG  I-PER      O
+I-LOC     838      10     76    119    107
+I-MISC     46     232     32     44    215
+I-ORG     136      17    384    260    218
+I-PER      57       3     37   1330    127
+O          48       6     41    134  23511
+
+evaluation matrix:
+              I-LOC    I-MISC     I-ORG     I-PER         O
+precision  0.744889  0.865672  0.673684  0.704822  0.972413
+recall     0.728696  0.407733  0.378325  0.855856  0.990354
+f1         0.736703  0.554361  0.484543  0.773031  0.981301
+
+average f1s: 0.591869
+
+combination results:
+          f1  n_params   caps    pos  chunk context
+5   0.594387     91195  False   True  False    True
+13  0.593716     91210   True   True  False    True
+7   0.592828     91420  False   True   True    True
+15  0.591869     91435   True   True   True    True
+14  0.538432     31210   True   True   True   False
+12  0.532832     31135   True   True  False   False
+6   0.522220     31205  False   True   True   False
+4   0.516075     31130  False   True  False   False
+11  0.500071     90775   True  False   True    True
+3   0.485292     90760  False  False   True    True
+9   0.470528     90550   True  False  False    True
+1   0.451490     90535  False  False  False    True
+10  0.422894     30990   True  False   True   False
+8   0.405025     30915   True  False  False   False
+2   0.395928     30985  False  False   True   False
+0   0.362557     30910  False  False  False   False
