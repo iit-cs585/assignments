@@ -16,23 +16,23 @@ precision  0.745115  0.865672  0.673111  0.705882  0.972336
 recall     0.729565  0.407733  0.377340  0.856041  0.990355
 f1         0.737258  0.554361  0.483586  0.773744  0.981263
 
-average f1s: 0.591735
+average f1s: 0.637237
 
 combination results:
           f1  n_params   caps    pos  chunk context
-5   0.595785     91210  False   True  False    True
-13  0.593564     91225   True   True  False    True
-7   0.592897     91435  False   True   True    True
-15  0.591735     91450   True   True   True    True
-14  0.539122     31215   True   True   True   False
-12  0.533537     31140   True   True  False   False
-6   0.524058     31210  False   True   True   False
-4   0.517960     31135  False   True  False   False
-11  0.499311     90790   True  False   True    True
-3   0.486370     90775  False  False   True    True
-9   0.470679     90565   True  False  False    True
-1   0.451490     90550  False  False  False    True
-10  0.423565     30995   True  False   True   False
-8   0.405025     30920   True  False  False   False
-2   0.395928     30990  False  False   True   False
-0   0.362557     30915  False  False  False   False
+5   0.639389     91210  False   True  False    True
+13  0.639039     91225   True   True  False    True
+15  0.637237     91450   True   True   True    True
+7   0.637036     91435  False   True   True    True
+14  0.581032     31215   True   True   True   False
+12  0.576982     31140   True   True  False   False
+6   0.562795     31210  False   True   True   False
+4   0.558451     31135  False   True  False   False
+11  0.512356     90790   True  False   True    True
+3   0.503278     90775  False  False   True    True
+9   0.482987     90565   True  False  False    True
+1   0.467874     90550  False  False  False    True
+10  0.388089     30995   True  False   True   False
+2   0.367361     30990  False  False   True   False
+8   0.367003     30920   True  False  False   False
+0   0.330491     30915  False  False  False   False
